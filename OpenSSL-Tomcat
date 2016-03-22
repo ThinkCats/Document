@@ -1,8 +1,0 @@
-tomcat :
-
-    <Connector port="8443" protocol="HTTP/1.1"
-               maxThreads="150" SSLEnabled="true" scheme="https" secure="true"
-               SSLCertificateFile="E:\CA\mykey.crt"
-               SSLCertificateKeyFile="E:\CA\mykey.pem"
-               SSLPassword="123456"
-               clientAuth="false" sslProtocol="TLS" />
